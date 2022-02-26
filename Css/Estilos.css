@@ -247,6 +247,124 @@ body{
         padding: 30px;
       }
 
+      /*main testimoniales*/ 
+
+      .fondo{
+        height: 80vh;
+        background-image:linear-gradient(rgba(12, 12, 12, .8), rgba(12, 12, 12, .9)) ,  url(../img/17.2.jpg);
+        background-size: cover;
+        max-width: 100%;
+        display: grid;
+      
+         
+      }
+
+      .titulo{
+        font-size: 2em;
+        color: #EDCB54; 
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .test{
+          display: flex;
+          margin: 10px;
+          margin-top: 50px;
+          justify-content: center;
+      }
+
+      .test .v1{
+          padding: 5px;
+          margin: 5px;
+          width: 500px;
+          height: 300px;
+         
+      }
+
+      .test .v2{
+        padding: 5px;
+        margin: 5px;
+        width: 500px;
+        height: 300px;
+        
+      }
+
+      .test .v3{
+        padding: 5px;
+        margin: 5px;
+        width: 500px;
+        height: 300px;
+      
+      }
+
+      .video{
+          width: 500px;
+          height: 300px;
+      }
+
+      .fondo .Palabras2{
+        width: 300px;
+        height: 30px;
+        color: #EDCB54;
+        font-size: 30px;
+        line-height: 30px;
+        overflow: hidden;
+        justify-content: center;
+        margin-left: 650px;
+        margin-top: 50px;
+       
+    }
+ 
+
+      .Palabras2{
+        display: flex;
+        justify-content: center;
+    
+      
+    }
+    .Palabras2 .p2{
+        text-align: center;
+        padding: 1px;
+        font-size: 30px;
+   
+    }
+         .up2{
+          list-style: none;
+          padding-left: 10px;
+          font-size: 25px;
+          animation: cambiar 4s infinite;
+      }
+
+      @keyframes cambiar{
+          0%{margin-top: 0;}
+          20%{margin-top: 0;}
+
+          25% {margin-top: -30px;}
+          50%{ margin-top: -30px;}
+
+          55%{ margin-top: -60px;}
+          80%{ margin-top: -60px;}
+
+          85%{ margin-top: -30px;}
+          95%{ margin-top: -30px;}
+
+          100%{ margin-top: 0;}
+      }
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
       
       
      
